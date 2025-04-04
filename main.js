@@ -75,17 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         
-        // Animation de la section à propos
-        const aboutContent = document.querySelector('.about-content');
-        if (aboutContent) {
-            const aboutPosition = aboutContent.getBoundingClientRect().top;
-            const windowHeight = window.innerHeight;
-            
-            if (aboutPosition < windowHeight - 100) {
-                aboutContent.classList.add('animate');
-            }
-        }
-        
         // Animation de la section contact
         const contactContainer = document.querySelector('.contact-container');
         if (contactContainer) {
