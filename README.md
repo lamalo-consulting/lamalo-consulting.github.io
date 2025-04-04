@@ -1,0 +1,1 @@
+# lamalo-consulting.github.io
